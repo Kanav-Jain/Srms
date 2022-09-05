@@ -1,0 +1,24 @@
+CREATE table admin(
+    username VARCHAR(250),
+	emailid VARCHAR(200),
+    password VARCHAR(200)
+);
+
+INSERT INTO admin
+VALUES('admin', 'admin@gmail.com', '1234');
+
+CREATE table student_info(
+    name VARCHAR(250),
+    emailid VARCHAR(250),
+   	section VARCHAR(10),
+    rollno INT PRIMARY KEY,
+    year INT,
+    s1 INT,
+    s2 INT,
+    s3 INT,
+    s4 INT,
+    s5 INT,
+    total INT, 
+    attendance INT,
+    status VARCHAR(10)
+);
